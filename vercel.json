@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "nuxt.config.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "env": {
+    "NUXT_SESSION_PASSWORD": "@nuxt_session_password",
+    "DATABASE_URL": "@database_url",
+    "EMAIL_HOST": "@email_host",
+    "EMAIL_PORT": "@email_port",
+    "EMAIL_USER": "@email_user",
+    "EMAIL_PASSWORD": "@email_password",
+    "EMAIL_FROM": "@email_from",
+    "SITE_URL": "@site_url"
+  }
+}

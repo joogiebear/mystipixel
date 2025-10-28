@@ -1,0 +1,35 @@
+{
+  "name": "MystiPixel",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.7.1",
+    "@nuxt/eslint": "^1.9.0",
+    "@nuxt/image": "^1.11.0",
+    "@nuxt/scripts": "^0.13.0",
+    "@nuxt/ui": "^4.1.0",
+    "@prisma/client": "^6.18.0",
+    "@tailwindcss/vite": "^4.1.16",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/nodemailer": "^7.0.3",
+    "@unhead/vue": "^2.0.19",
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^12.4.1",
+    "eslint": "^9.38.0",
+    "nodemailer": "^7.0.10",
+    "nuxt": "^4.2.0",
+    "nuxt-auth-utils": "^0.5.25",
+    "prisma": "^6.18.0",
+    "tailwindcss": "^4.1.16",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.22",
+    "vue-router": "^4.6.3"
+  }
+}
